@@ -1,0 +1,68 @@
+* {
+    /* boxsize*/
+    box-sizing: border-box;
+    /* padding*/
+    padding: 0;
+    /* margin of the page*/
+    margin: 0;
+  }
+  
+  .container {
+    /* display of the container*/
+    display: flex;
+    /* background of the container*/
+    background: #fff;
+    /* alignment */
+    align-content: center;
+    /* justify items*/
+    justify-content: center;
+    /* direction of the container*/
+    flex-direction: column;
+    /* minimum width of the container*/
+    min-width: 700px;
+     /* minimum height of the container*/
+    min-height: 500px;
+     /* minimum width of the container*/
+    border-radius: 5%;
+     /* margin of the container*/
+    margin: auto;
+  }
+  
+  table {
+     /* border of the table*/
+    border-collapse: collapse;
+     /* margin of the table*/
+    margin: auto;
+  }
+  
+  td {
+     /* background color*/
+    background-color: #666;
+     /* border*/
+    border: 5px solid white;
+     /* font size*/
+    font-size: 80px;
+     /* color*/
+    color: #fff;
+     /* broder radics*/
+    border-radius: 10%;
+  }
+  
+  #player {
+     /* padding*/
+    padding: 1rem;
+  }
+  
+  body {
+     /* display*/
+    display: flex;
+     /* background color*/
+    background: #eee url('https://source.unsplash.com/1600x900/?nature') no-repeat
+      center center/cover;
+       /* height*/
+    height: 100vh;
+     /* width*/
+    width: 100%;
+     /* overflow*/
+    overflow: hidden;
+  }
